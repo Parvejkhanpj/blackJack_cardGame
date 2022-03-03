@@ -1,0 +1,74 @@
+/* main game body css */
+.game {
+    width: 730px;
+    /* height: 600px; */
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 430px;
+    background-color: blueviolet;
+}
+
+/* primary title css */
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: black;
+}
+
+/* button css */
+.btn {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(5, 48, 33);
+}
+
+
+
+.game .game-body {
+    padding: 20px;
+}
+
+.game-option {
+    text-align: center;
+}
+
+.players {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.deck {
+    float: left;
+    background: white;
+    color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    border: double 5px;
+}
+
+
+.game .status {
+    display: inline-block;
+    background: gold;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: none;
+}
